@@ -1,0 +1,22 @@
+
+#date{
+    background-image: /images/icon/calendar.png;
+    font-size:0;
+    width:96px;
+    height:96px;
+
+}
+
+  .droppable {
+    float:left;
+    left: 250px;
+    top: 0;
+    width: 94px;
+    height: 94px;
+    background: #fff;
+    color: #000;
+    border-style: solid;
+    border-color: #CC7722;
+    padding: 10px;
+  }
+

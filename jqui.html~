@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+<link rel="stylesheet" type="text/css" href="jquery-ui.min.css"  />
+<script src="jquery.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="jqui.js"></script>
+  <link rel="stylesheet" type="text/css" href="jqui.css" title="style" />
+
+   </head>
+   </body>
+	<div id="btn">	
+		<button name="date" id="date">
+	</div>
+	 	<div id="datepicker"></div>
+
+
+	<div id="icons">
+		<div id="tabs">
+			<ul>
+				<li><a href="#fragment-1"><span>Main</span></a></li>
+				<li><a href="#fragment-2"><span>Music</span></a></li>
+				<li><a href="#fragment-3"><span>Games</span></a></li>
+			</ul>
+			<div id="fragment-1">
+				<img src="images/icon/ff.png"  class="draggable"></img>
+				<img src="images/icon/Skype.png"  class="draggable"></img>
+				<img src="images/icon/folder.png"  class="draggable"></img>
+			</div>
+			<div id="fragment-2">
+				<img src="images/icon/Spotify.png"  class="draggable"></img>
+				<img src="images/icon/youtube.png"  class="draggable"></img>
+				<img src="images/icon/gs.png"  class="draggable"></img>
+			</div>
+			<div id="fragment-3">
+				<img src="images/icon/sc.png"  class="draggable"></img>
+				<img src="images/icon/xbox.png" class="draggable"></img>
+			</div>
+		</div>
+	</div>
+	
+	<p id="test"></p>	
+
+	<p>arrastra para mover los iconos de tab</p>
+	<div id="droppable1" class="droppable">Main</div>
+	<div id="droppable2" class="droppable">Music</div>
+	<div id="droppable3" class="droppable">Games</div>
+
+
+   </body>
+</html>

@@ -1,0 +1,22 @@
+
+#date{
+    background-image: url(http://icons.iconarchive.com/icons/iconshock/real-vista-project-managment/48/calendar-icon.png);
+    font-size:0;
+    width:48px;
+    height:48px;
+
+}
+
+  .droppable {
+    float:left;
+    left: 250px;
+    top: 0;
+    width: 94px;
+    height: 94px;
+    background: #fff;
+    color: #000;
+    border-style: solid;
+    border-color: #CC7722;
+    padding: 10px;
+  }
+
